@@ -1,2 +1,3 @@
-# QuanX-Profiles
-Personal conf for my Quantumult x app
+# quantumultx-profiles
+
+Personal config for my Quantumult x app
