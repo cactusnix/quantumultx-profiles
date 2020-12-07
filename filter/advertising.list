@@ -333,7 +333,7 @@ DOMAIN,a.wkanx.com,REJECT
 DOMAIN,cwx.lianwangtech.com,REJECT
 DOMAIN,c1wx.lianwangtech.com,REJECT
 # > 微博国际版
-DOMAIN,msg.umengcloud.com,REJECT
+DOMAIN,sdkapp.uve.weibo.com,REJECT
 # (X)
 # > 喜马拉雅
 DOMAIN,ad.ximalaya.com,REJECT
