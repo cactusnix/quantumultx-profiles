@@ -356,3 +356,4 @@ DOMAIN,iyes.youku.com,REJECT
 DOMAIN,apppv.zol.com.cn,REJECT
 DOMAIN,pvnapp.zol.com.cn,REJECT
 DOMAIN,api.zhihu.com,REJECT
+DOMAIN,vdn.vzuu.com,REJECT
