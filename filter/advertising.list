@@ -181,6 +181,9 @@ DOMAIN,adshows.21cn.com,REJECT
 # > 车来了
 DOMAIN,atrace.chelaile.net.cn,REJECT
 DOMAIN,logs.chelaile.net.cn,REJECT
+# (D)
+# > 豆瓣
+DOMAIN,pgdt.ugdtimg.com,REJECT
 # (G)
 # > Google
 DOMAIN-SUFFIX,doubleclick.net,REJECT
