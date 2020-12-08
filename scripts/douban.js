@@ -1,4 +1,4 @@
 // douban
 var obj = JSON.parse($response.body)
-obj.ads = []
+obj.ad_info.show_ad_mark = false
 $done({ body: JSON.stringify(obj) })
