@@ -1,5 +1,5 @@
 // wechat
-var obj = JSON.parse($response.body)
+let obj = JSON.parse($response.body)
 obj.advertisement_num = 0
 obj.advertisement_info = []
 delete obj.appid
