@@ -9,5 +9,8 @@ Personal config for my Quantumult x app
 - [x] 小红书
 - [x] 网易云音乐
 - [x] 豆瓣
+- [x] 知乎
 
 ## 去 App 应用内广告
+
+- [x] 知乎首页时间线广告
