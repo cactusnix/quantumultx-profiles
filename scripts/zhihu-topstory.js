@@ -9,4 +9,5 @@ for (let i = 0; i < obj.data.length; i++) {
 for (let i = 0; i < indexList.length; i++) {
   obj.data.splice(indexList[i], 1)
 }
+console.log(obj)
 $done({ body: JSON.stringify(obj) })
