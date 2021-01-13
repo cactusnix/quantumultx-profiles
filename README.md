@@ -14,3 +14,4 @@ Personal config for my Quantumult x app
 ## 去 App 应用内广告
 
 - [x] 知乎首页时间线广告
+- [x] 微博国际版首页时间线广告
