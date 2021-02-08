@@ -1,4 +1,6 @@
 // bilibili
 let obj = JSON.parse($response.body)
-obj.data.items.splice(0, 1)
+if (obj.data.items[0].banner_item) {
+  obj.data.items.splice(0, 1)
+}
 $done({ body: JSON.stringify(obj) })
