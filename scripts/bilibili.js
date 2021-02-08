@@ -1,6 +1,10 @@
 // bilibili
 let obj = JSON.parse($response.body)
-if (obj.data.items[0].banner_item) {
-  obj.data.items.splice(0, 1)
+for (let i = 0; i < obj.data.items.length; i++) {
+  const element = obj.data.items[i]
+  if (element.card_goto != 'av') {
+    obj.data.items.splice(i, 1)
+    i--
+  }
 }
 $done({ body: JSON.stringify(obj) })
