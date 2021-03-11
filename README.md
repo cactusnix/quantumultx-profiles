@@ -18,6 +18,10 @@ Personal config for my Quantumult x app
 - [x] 微博国际版首页时间线广告
 - [x] 哔哩哔哩首页推荐广告
 
+## 失败
+
+1. 掌上生活-数据使用了 SM4、SM2、Base64 等对称和非对称加密
+
 ## Tips
 
 1. 哔哩哔哩首页推荐广告去除，只保留 av 类型内容，其他均去除，包括整个 banner。
