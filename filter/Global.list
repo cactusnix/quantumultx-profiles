@@ -14,6 +14,7 @@ DOMAIN-KEYWORD,.blogspot.,Global
 # > Microsoft
 DOMAIN-SUFFIX,aka.ms,Global
 DOMAIN-SUFFIX,onedrive.live.com,Global
+DOMAIN-SUFFIX,streaming.mediaservices.windows.net,Global
 DOMAIN,az416426.vo.msecnd.net,Global
 DOMAIN,az668014.vo.msecnd.net,Global
 # > Facebook
@@ -74,6 +75,9 @@ DOMAIN,s3-ap-southeast-2.amazonaws.com,Global
 # > Akamai
 DOMAIN,a248.e.akamai.net,Global
 DOMAIN,a771.dscq.akamai.net,Global
+# > Clubhouse
+DOMAIN-SUFFIX,clubhouseapi.com,Global
+DOMAIN-SUFFIX,joinclubhouse.com,Global
 # > Others
 DOMAIN-SUFFIX,4shared.com,Global
 DOMAIN-SUFFIX,9cache.com,Global
@@ -204,6 +208,7 @@ DOMAIN-SUFFIX,globalvoices.org,Global
 DOMAIN-SUFFIX,goo.ne.jp,Global
 DOMAIN-SUFFIX,goodreads.com,Global
 DOMAIN-SUFFIX,gov.tw,Global
+DOMAIN-SUFFIX,gravatar.com,Global
 DOMAIN-SUFFIX,greatfire.org,Global
 DOMAIN-SUFFIX,gumroad.com,Global
 DOMAIN-SUFFIX,hbg.com,Global
@@ -526,11 +531,22 @@ DOMAIN-SUFFIX,mangakakalot.com,Global
 DOMAIN-SUFFIX,shopeemobile.com,Global
 
 # (Network Jitter)
+# > Apple
+DOMAIN,appleid.apple.com,Global
+DOMAIN,developer.apple.com,Global
+DOMAIN,www.icloud.com,Global
+DOMAIN,ocsp.apple.com,Global
+DOMAIN,xp.apple.com,Global
+# > DigiCert
+DOMAIN,cacerts.digicert.com,Global
+DOMAIN,crl3.digicert.com,Global
+DOMAIN,crl4.digicert.com,Global
+DOMAIN,ocsp.digicert.com,Global
+# > Others
 DOMAIN-SUFFIX,cloudcone.com.cn,Global
 DOMAIN-SUFFIX,inkbunny.net,Global
 DOMAIN-SUFFIX,metapix.net,Global
 DOMAIN-SUFFIX,s3.amazonaws.com,Global
 DOMAIN-SUFFIX,zaobao.com.sg,Global
 DOMAIN,international-gfe.download.nvidia.com,Global
-DOMAIN,ocsp.apple.com,Global
 DOMAIN,store-images.s-microsoft.com,Global
