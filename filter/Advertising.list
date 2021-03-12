@@ -242,8 +242,7 @@ DOMAIN-SUFFIX,ad.cmvideo.cn,REJECT
 DOMAIN-SUFFIX,ad.daum.net,REJECT
 
 DOMAIN,abema-adx.ameba.jp,REJECT
-# TODO
-# DOMAIN,ad.12306.cn,REJECT
+DOMAIN,ad.12306.cn,REJECT
 DOMAIN,ad.caiyunapp.com,REJECT
 DOMAIN,ad.flurry.com,REJECT
 DOMAIN,ad.huajiao.com,REJECT
