@@ -2,7 +2,8 @@
   "name": "Gallery",
   "task": [
     {
-      "config": "0 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png"
+      "config": "0 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png",
+      "addons": "https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js_Remote_Cookie.conf, tag=NobyDa Cookie获取"
     }
   ],
   "description": "My Gallery."
