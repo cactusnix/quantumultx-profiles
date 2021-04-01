@@ -5,27 +5,24 @@ const headers = $request.headers;
 if (url.indexOf("10010") > -1) {
   // simplify cookie
   const cookie = headers["Cookie"].split("; ");
-  const ecsToken = cookie.find((v) => v.indexOf("ecs_token") > -1) + ";";
-  const ecsAcc = cookie.find((v) => v.indexOf("ecs_acc") > -1) + ";";
+  const cookieValue =
+    cookie.find((v) => v.indexOf("ecs_token") > -1) +
+    ";" +
+    cookie.find((v) => v.indexOf("ecs_acc") > -1) +
+    ";";
   // validator the cookie
-  // first check weather cookie is right
-  if (ecsToken.indexOf("undefined") > -1 || ecsAcc.indexOf("undefined") > -1) {
+  // first check whether cookie is right
+  if (cookieValue.indexOf("undefined") > -1) {
     $notify("中国联通Cookie获取失败（登录并打开联通App）😬", "", "");
     $done();
   } else {
-    if ($prefs.valueForKey("ecs_acc") && $prefs.valueForKey("ecs_token")) {
-      // only validator because ecs_token every time is different
-      if ($prefs.valueForKey("ecs_acc") != ecsAcc) {
-        $prefs.setValueForKey(ecsToken, "ecs_token");
-        $prefs.setValueForKey(ecsAcc, "ecs_acc");
-        $notify("中国联通ecs_acc更新成功🎉", "", "");
-        $done();
-      } else {
-        $done();
-      }
+    // second check whether cookie is exist
+    if ($prefs.valueForKey("cookie_10010")) {
+      // every time is differen, so don't update it
+      // only when check is failed, update it by myself
+      $done();
     } else {
-      $prefs.setValueForKey(ecsToken, "ecs_token");
-      $prefs.setValueForKey(ecsAcc, "ecs_acc");
+      $prefs.setValueForKey(cookieValue, "cookie_10010");
       $prefs.setValueForKey(
         "Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148unicom",
         "user_agent_check"
