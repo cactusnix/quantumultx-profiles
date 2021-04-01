@@ -22,7 +22,8 @@ async function check() {
     $done();
   }
   if (resp) {
-    const msg = "签到:" + resp.body.msg + "\n";
+    const json = JSON.parse(resp.body);
+    const msg = "签到:" + json.msg + "\n";
     console.log(msg);
     notifyInfo.content += msg;
   }
@@ -42,7 +43,8 @@ async function checkInfo() {
     $done();
   }
   if (resp) {
-    const msg = "签到积分:" + resp.body.data.integralTotal + "\n";
+    const json = JSON.parse(resp.body);
+    const msg = "签到积分:" + json.data.integralTotal + "\n";
     console.log(msg);
     notifyInfo.content += msg;
   }
