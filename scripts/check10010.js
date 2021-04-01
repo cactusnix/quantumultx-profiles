@@ -7,50 +7,71 @@ let notifyInfo = {
 };
 
 // check action
-async function check() {
+function check() {
   const checkReq = {
     url: "https://act.10010.com/SigninApp/signin/daySign",
     method: "POST",
     headers: {
-      Cookie: $prefs.valueForKey("cookie_100010"),
+      Cookie: $prefs.valueForKey("cookie_10010"),
       "User-Agent": $prefs.valueForKey("user_agent_check"),
     },
   };
-  const { resp, err } = await $task.fetch(checkInfoReq);
-  if (err) {
-    console.log("签到失败:", err.error);
-    $done();
-  }
-  if (resp) {
-    const json = JSON.parse(resp.body);
-    const msg = "签到:" + json.msg + "\n";
-    console.log(msg);
-    notifyInfo.content += msg;
-  }
+  $task.fetch(checkReq).then(
+    (response) => {
+      console.log("开始签到");
+      const json = JSON.parse(response.body);
+      let msg = "";
+      if (json.status === "0000") {
+        msg = "签到成功🎉" + "\n";
+        console.log(msg);
+      } else {
+        msg = json.msg + "\n";
+        console.log(msg);
+      }
+      notifyInfo.content += msg;
+      checkInfo();
+    },
+    (reason) => {
+      // reason.error
+      console.log("签到失败:", reason.error);
+      $notify("签到失败:", "", reason.error);
+      $done();
+    }
+  );
 }
 // get check info action
-async function checkInfo() {
+function checkInfo() {
   const checkInfoReq = {
     url: "https://act.10010.com/SigninApp/signin/getIntegral",
     method: "POST",
     headers: {
-      Cookie: $prefs.valueForKey("cookie_100010"),
+      Cookie: $prefs.valueForKey("cookie_10010"),
     },
   };
-  const { resp, err } = await $task.fetch(checkInfoReq);
-  if (err) {
-    console.log("签到信息获取失败:", err.error);
-    $done();
-  }
-  if (resp) {
-    const json = JSON.parse(resp.body);
-    const msg = "签到积分:" + json.data.integralTotal + "\n";
-    console.log(msg);
-    notifyInfo.content += msg;
-  }
+  $task.fetch(checkInfoReq).then(
+    (response) => {
+      console.log("获取积分信息");
+      const json = JSON.parse(response.body);
+      let msg = "";
+      if (json.status === "0000") {
+        msg = "获取成功🎉，共计：" + json.data.integralTotal + "分" + "\n";
+        console.log(msg);
+      } else {
+        msg = json.msg + "\n";
+        console.log(msg);
+      }
+      notifyInfo.content += msg;
+      $notify(notifyInfo.title, "", notifyInfo.content);
+      $done();
+    },
+    (reason) => {
+      // reason.error
+      console.log("签到信息获取失败:", reason.error);
+      $notify("签到信息获取失败:", "", reason.error);
+      $done();
+    }
+  );
 }
 
-await check();
-await checkInfo();
-$notify(notifyInfo.title, "", notifyInfo.content);
-$done();
+// start
+check();
