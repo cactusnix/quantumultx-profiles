@@ -16,8 +16,12 @@ if (url.indexOf("10010") > -1) {
     $done();
   } else {
     if ($prefs.valueForKey("cookie_100010")) {
-      console.log($prefs.valueForKey("cookie_100010"), "cookie store");
-      console.log(cookieValue, "cookie get");
+      console.log("store get");
+      console.log($prefs.valueForKey("cookie_100010"));
+      console.log("cookie get");
+      console.log(cookieValue);
+      console.log("result");
+      console.log($prefs.valueForKey("cookie_100010") != cookieValue);
       if ($prefs.valueForKey("cookie_100010") != cookieValue) {
         $prefs.setValueForKey(cookieValue, "cookie_100010");
         $notify("中国联通Cookie更新成功🎉", "", "");
