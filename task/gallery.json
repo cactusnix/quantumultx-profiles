@@ -8,6 +8,9 @@
       "config": "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js, tag=Bili漫画签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/manga.png"
     },
     {
+      "config": "0 9 * * * https://raw.githubusercontent.com/cactusnix/quantumultx-profiles/master/scripts/check10010.js, tag=中国联通签到, img-url=https://raw.githubusercontent.com/cactusnix/quantumultx-profiles/master/assets/10010.png"
+    },
+    {
       "config": "1 0 * * * https://raw.githubusercontent.com/cactusnix/quantumultx-profiles/master/scripts/removePrefsData.js, tag=removeAll, img-url=https://raw.githubusercontent.com/cactusnix/quantumultx-profiles/master/assets/config/config.png"
     }
   ],
