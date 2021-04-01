@@ -1,7 +1,7 @@
 // this is for daily check
 // check action
 function check() {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const checkReq = {
       url: "https://act.10010.com/SigninApp/signin/daySign",
       method: "POST",
@@ -23,7 +23,7 @@ function check() {
 }
 // get check info action
 function checkInfo() {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const checkInfoReq = {
       url: "https://act.10010.com/SigninApp/signin/getIntegral",
       method: "POST",
@@ -44,5 +44,4 @@ function checkInfo() {
   });
 }
 
-await check();
-await checkInfo();
+await Promise.all([check(), checkInfo()]);
