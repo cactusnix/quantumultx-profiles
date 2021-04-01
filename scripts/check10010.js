@@ -51,3 +51,4 @@ async function checkInfo() {
 await check();
 await checkInfo();
 $notify(notifyInfo.title, "", notifyInfo.content);
+$done();
