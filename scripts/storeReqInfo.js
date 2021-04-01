@@ -13,7 +13,6 @@ if (url.indexOf("10010") > -1) {
       ";" +
       cookie.find((v) => v.indexOf("ecs_acc") > -1) +
       ";";
-    console.log(cookieValue);
     if (cookieValue.indexOf("undefined") > -1) {
       $notify(
         "联通Cookie",
