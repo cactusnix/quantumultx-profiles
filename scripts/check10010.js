@@ -1,47 +1,53 @@
 // this is for daily check
+
+// notify info
+let notifyInfo = {
+  title: "联通签到",
+  content: "",
+};
+
 // check action
-function check() {
-  return new Promise((resolve) => {
-    const checkReq = {
-      url: "https://act.10010.com/SigninApp/signin/daySign",
-      method: "POST",
-      headers: {
-        Cookie: $prefs.valueForKey("cookie_100010"),
-        "User-Agent": $prefs.valueForKey("user_agent_check"),
-      },
-    };
-    $task.fetch(checkReq).then(
-      (response) => {
-        console.log("签到结果:", response.body.msg);
-      },
-      (reason) => {
-        // reason.error
-        console.log("签到Reason:", reason.error);
-      }
-    );
-  });
+async function check() {
+  const checkReq = {
+    url: "https://act.10010.com/SigninApp/signin/daySign",
+    method: "POST",
+    headers: {
+      Cookie: $prefs.valueForKey("cookie_100010"),
+      "User-Agent": $prefs.valueForKey("user_agent_check"),
+    },
+  };
+  const { resp, err } = await $task.fetch(checkInfoReq);
+  if (err) {
+    console.log("签到失败:", err.error);
+    $done();
+  }
+  if (resp) {
+    const msg = "签到:" + resp.body.msg + "\n";
+    console.log(msg);
+    notifyInfo.content += msg;
+  }
 }
 // get check info action
-function checkInfo() {
-  return new Promise((resolve) => {
-    const checkInfoReq = {
-      url: "https://act.10010.com/SigninApp/signin/getIntegral",
-      method: "POST",
-      headers: {
-        Cookie: $prefs.valueForKey("cookie_100010"),
-      },
-    };
-    $task.fetch(checkInfoReq).then(
-      (response) => {
-        // response.statusCode, response.headers, response.body
-        console.log("目前积分", response.body.data.integralTotal);
-      },
-      (reason) => {
-        // reason.error
-        console.log("签到信息Reason:", reason.error);
-      }
-    );
-  });
+async function checkInfo() {
+  const checkInfoReq = {
+    url: "https://act.10010.com/SigninApp/signin/getIntegral",
+    method: "POST",
+    headers: {
+      Cookie: $prefs.valueForKey("cookie_100010"),
+    },
+  };
+  const { resp, err } = await $task.fetch(checkInfoReq);
+  if (err) {
+    console.log("签到信息获取失败:", err.error);
+    $done();
+  }
+  if (resp) {
+    const msg = "签到积分:" + resp.body.data.integralTotal + "\n";
+    console.log(msg);
+    notifyInfo.content += msg;
+  }
 }
 
-await Promise.all([check(), checkInfo()]);
+await check();
+await checkInfo();
+$notify(notifyInfo.title, "", notifyInfo.content);
