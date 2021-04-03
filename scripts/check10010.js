@@ -19,13 +19,14 @@ function check() {
   };
   $task.fetch(checkReq).then(
     (response) => {
-      console.log("开始签到");
+      console.log("签到日志");
       const json = JSON.parse(response.body);
       let msg = "";
       if (json.status === "0000" || json.status === "0002") {
         msg = "🎉->" + json.msg + "\n";
         console.log(msg);
       } else {
+        console.log(json.msg + "\n");
         check();
       }
       notifyInfo.content += msg;
@@ -54,7 +55,7 @@ function checkInfo() {
       const json = JSON.parse(response.body);
       let msg = "";
       if (json.status === "0000") {
-        msg = "🎉积分：" + json.data.integralTotal + "分" + "\n";
+        msg = "🎉->积分：" + json.data.integralTotal + "分" + "\n";
         console.log(msg);
       } else {
         msg = json.msg + "\n";
