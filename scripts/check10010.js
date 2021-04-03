@@ -7,6 +7,7 @@ let notifyInfo = {
 };
 
 // check action
+// description 0000 签到成功; 0001 未登录; 0002 已经签到; 0016 签到拥堵
 function check() {
   const checkReq = {
     url: "https://act.10010.com/SigninApp/signin/daySign",
@@ -21,12 +22,11 @@ function check() {
       console.log("开始签到");
       const json = JSON.parse(response.body);
       let msg = "";
-      if (json.status === "0000") {
-        msg = "签到成功🎉" + "\n";
+      if (json.status === "0000" || json.status === "0002") {
+        msg = "🎉->" + json.msg + "\n";
         console.log(msg);
       } else {
-        msg = json.msg + "\n";
-        console.log(msg);
+        check();
       }
       notifyInfo.content += msg;
       checkInfo();
@@ -54,7 +54,7 @@ function checkInfo() {
       const json = JSON.parse(response.body);
       let msg = "";
       if (json.status === "0000") {
-        msg = "获取成功🎉，共计：" + json.data.integralTotal + "分" + "\n";
+        msg = "🎉积分：" + json.data.integralTotal + "分" + "\n";
         console.log(msg);
       } else {
         msg = json.msg + "\n";
