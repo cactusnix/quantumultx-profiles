@@ -3,49 +3,23 @@
 const url = $request.url;
 
 const functionID = url.split("?")[1].split("=")[1];
-console.log(url);
-console.log(functionID);
 
-const myStatus = "HTTP/1.1 200 OK";
-const myHeaders = { Connection: "Close" };
-console.log({
-  status: myStatus,
-  headers: myHeaders,
-  body: {
-    code: 0,
-    msg: "success",
-    cookie: $prefs.valueForKey("cookie_10010"),
-  },
-});
-const myResponse = {
-  status: myStatus,
-  headers: myHeaders,
-  body: myData + JSON.stringify($request.headers),
-};
-
-$done(myResponse);
-// switch (functionID) {
-//   case "10010":
-//     $done({
-//       status: myStatus,
-//       headers: myHeaders,
-//       body: {
-//         code: 0,
-//         msg: "success",
-//         cookie: $prefs.valueForKey("cookie_10010"),
-//       },
-//     });
-//     console.log({
-//       status: myStatus,
-//       headers: myHeaders,
-//       body: {
-//         code: 0,
-//         msg: "success",
-//         cookie: $prefs.valueForKey("cookie_10010"),
-//       },
-//     });
-//     break;
-
-//   default:
-//     break;
-// }
+switch (functionID) {
+  case "10010":
+    $done({
+      body: JSON.stringify({
+        code: 0,
+        msg: "success",
+        cookie: $prefs.valueForKey("cookie_10010"),
+      }),
+    });
+    break;
+  default:
+    $done({
+      body: JSON.stringify({
+        code: 0,
+        msg: "default part",
+      }),
+    });
+    break;
+}
