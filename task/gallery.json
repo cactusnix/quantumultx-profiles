@@ -11,13 +11,10 @@
       "config": "0 9 * * * https://raw.githubusercontent.com/cactusnix/quantumultx-profiles/master/scripts/check10010.js, tag=中国联通签到, img-url=https://github.com/cactusnix/quantumultx-profiles/raw/master/assets/task/10010.png"
     },
     {
-      "config": "0 9 * * * https://raw.githubusercontent.com/cactusnix/quantumultx-profiles/master/scripts/remove10010Prefs.js, tag=联通Cookie Remove, img-url=https://github.com/cactusnix/quantumultx-profiles/raw/master/assets/task/10010.png"
+      "config": "* * * * * https://raw.githubusercontent.com/cactusnix/quantumultx-profiles/master/scripts/remove10010Prefs.js, tag=联通Cookie Remove, img-url=https://github.com/cactusnix/quantumultx-profiles/raw/master/assets/task/10010.png"
     },
     {
-      "config": "0 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/10010/unicom_signin.js, tag=联通_签到与抽奖, img-url=https://github.com/cactusnix/quantumultx-profiles/raw/master/assets/task/10010.png"
-    },
-    {
-      "config": "1 0 * * * https://raw.githubusercontent.com/cactusnix/quantumultx-profiles/master/scripts/removePrefsData.js, tag=removeAll, img-url=https://github.com/cactusnix/quantumultx-profiles/raw/master/assets/config/config.png"
+      "config": "* * * * * https://raw.githubusercontent.com/cactusnix/quantumultx-profiles/master/scripts/remove10010Prefs.js, tag=RemoveAllMyPrefs, img-url=https://raw.githubusercontent.com/cactusnix/quantumultx-profiles/master/assets/config/config.png"
     }
   ],
   "description": "My Gallery."
