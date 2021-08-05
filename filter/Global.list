@@ -10,9 +10,10 @@ DOMAIN,a248.e.akamai.net,Global
 DOMAIN,a771.dscq.akamai.net,Global
 # > Apple
 DOMAIN,testflight.apple.com,Global
-# > Cryptocurrency
+# > Crypto
 DOMAIN-SUFFIX,aex.com,Global
 DOMAIN-SUFFIX,bibox.com,Global
+DOMAIN-SUFFIX,binance.cc,Global
 DOMAIN-SUFFIX,binance.com,Global
 DOMAIN-SUFFIX,bitcointalk.org,Global
 DOMAIN-SUFFIX,bitfinex.com,Global
@@ -20,6 +21,7 @@ DOMAIN-SUFFIX,bitmex.com,Global
 DOMAIN-SUFFIX,gate.io,Global
 DOMAIN-SUFFIX,huobi.com,Global
 DOMAIN-SUFFIX,okex.com,Global
+DOMAIN-SUFFIX,uniswap.org,Global
 DOMAIN-SUFFIX,zb.com,Global
 # > Discord
 DOMAIN-SUFFIX,discord.com,Global
@@ -397,6 +399,7 @@ DOMAIN-SUFFIX,steemitwallet.com,Global
 DOMAIN-SUFFIX,straitstimes.com,Global
 DOMAIN-SUFFIX,streamable.com,Global
 DOMAIN-SUFFIX,streema.com,Global
+DOMAIN-SUFFIX,substack.com,Global
 DOMAIN-SUFFIX,t66y.com,Global
 DOMAIN-SUFFIX,tapatalk.com,Global
 DOMAIN-SUFFIX,teco-hk.org,Global
@@ -450,6 +453,7 @@ DOMAIN-SUFFIX,xn--90wwvt03e.com,Global
 DOMAIN-SUFFIX,xn--i2ru8q2qg.com,Global
 DOMAIN-SUFFIX,xnxx.com,Global
 DOMAIN-SUFFIX,xvideos.com,Global
+DOMAIN-SUFFIX,yadi.sk,Global
 DOMAIN-SUFFIX,yahoo.com,Global
 DOMAIN-SUFFIX,yandex.ru,Global
 DOMAIN-SUFFIX,ycombinator.com,Global
@@ -460,6 +464,7 @@ DOMAIN-SUFFIX,you-get.org,Global
 DOMAIN-SUFFIX,zaobao.com,Global
 DOMAIN-SUFFIX,zello.com,Global
 DOMAIN-SUFFIX,zeronet.io,Global
+DOMAIN-SUFFIX,z-lib.org,Global
 DOMAIN-SUFFIX,zoom.us,Global
 
 DOMAIN,cc.tvbs.com.tw,Global
@@ -528,20 +533,17 @@ DOMAIN-SUFFIX,twitter.jp,Global
 
 # (Region-Restricted Access Denied)
 # ---(Apple)---
-# > Apple URL Shortener
 DOMAIN-SUFFIX,appsto.re,Global
-# > iBooks Store download
 DOMAIN,books.itunes.apple.com,Global
-# > App Store Preview
+DOMAIN,api-glb-sea.smoot.apple.com,Global
+DOMAIN,beta.music.apple.com,Global
+DOMAIN,tv.apple.com,Global
+# > App Store Web Preview
 DOMAIN,apps.apple.com,Global
 DOMAIN,itunes.apple.com,Global
-# > Spotlight
-DOMAIN,api-glb-sea.smoot.apple.com,Global
 # > Look Up
 DOMAIN-SUFFIX,smoot.apple.com,Global
 DOMAIN,lookup-api.apple.com,Global
-# > Apple Music Web
-DOMAIN,beta.music.apple.com,Global
 # ------
 # > Others
 DOMAIN-SUFFIX,bing.com,Global
@@ -551,6 +553,8 @@ DOMAIN-SUFFIX,duboxcdn.com,Global
 DOMAIN-SUFFIX,ifixit.com,Global
 DOMAIN-SUFFIX,mangakakalot.com,Global
 DOMAIN-SUFFIX,shopeemobile.com,Global
+DOMAIN-SUFFIX,sushi.com,Global
+# URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
 
 # (Network Jitter)
 # > Apple
@@ -571,4 +575,3 @@ DOMAIN-SUFFIX,metapix.net,Global
 DOMAIN-SUFFIX,s3.amazonaws.com,Global
 DOMAIN-SUFFIX,zaobao.com.sg,Global
 DOMAIN,international-gfe.download.nvidia.com,Global
-DOMAIN,store-images.s-microsoft.com,Global
