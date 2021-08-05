@@ -2,7 +2,7 @@
   "name": "Gallery",
   "task": [
     {
-      "config": "5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png"
+      "config": "5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东签到（Other）, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png"
     }
   ],
   "description": "My Gallery."
