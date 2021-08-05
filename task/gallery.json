@@ -3,18 +3,6 @@
   "task": [
     {
       "config": "5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png"
-    },
-    {
-      "config": "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js, tag=Bili漫画签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/manga.png"
-    },
-    {
-      "config": "0 9 * * * https://raw.githubusercontent.com/cactusnix/quantumultx-profiles/master/scripts/check10010.js, tag=中国联通签到, img-url=https://github.com/cactusnix/quantumultx-profiles/raw/master/assets/task/10010.png"
-    },
-    {
-      "config": "* * * * * https://raw.githubusercontent.com/cactusnix/quantumultx-profiles/master/scripts/remove10010Prefs.js, tag=联通Cookie Remove, img-url=https://github.com/cactusnix/quantumultx-profiles/raw/master/assets/task/10010.png"
-    },
-    {
-      "config": "* * * * * https://raw.githubusercontent.com/cactusnix/quantumultx-profiles/master/scripts/remove10010Prefs.js, tag=RemoveAllMyPrefs, img-url=https://raw.githubusercontent.com/cactusnix/quantumultx-profiles/master/assets/config/config.png"
     }
   ],
   "description": "My Gallery."
