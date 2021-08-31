@@ -5,4 +5,24 @@ Personal config for my Quantumult x app
 
 ## 项目说明
 
-本项目是个人自行使用的
+暂无说明
+
+### filter
+
+常用分流规则
+
+### filter/extra
+
+特定应用分流规则
+
+### rewrite
+
+重写规则
+
+### scripts
+
+脚本
+
+### task
+
+任务 gallery
