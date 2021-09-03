@@ -545,6 +545,9 @@ DOMAIN,itunes.apple.com,Global
 DOMAIN-SUFFIX,smoot.apple.com,Global
 DOMAIN,lookup-api.apple.com,Global
 # ------
+# Google
+DOMAIN-SUFFIX,go.dev,Global
+DOMAIN-SUFFIX,golang.org,Global
 # > Others
 DOMAIN-SUFFIX,bing.com,Global
 DOMAIN-SUFFIX,cccat.io,Global
