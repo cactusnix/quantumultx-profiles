@@ -1,0 +1,26 @@
+# Software Update
+# > macOS updates
+DOMAIN,configuration.apple.com,AppleOS Update
+DOMAIN,gnf-mdn.apple.com,AppleOS Update
+DOMAIN,gnf-mr.apple.com,AppleOS Update
+DOMAIN,gs.apple.com,AppleOS Update
+DOMAIN,ig.apple.com,AppleOS Update
+DOMAIN,skl.apple.com,AppleOS Update
+DOMAIN,swcdn.apple.com,AppleOS Update
+DOMAIN,swdist.apple.com,AppleOS Update
+DOMAIN,swdownload.apple.com,AppleOS Update
+DOMAIN,swpost.apple.com,AppleOS Update
+DOMAIN,swscan.apple.com,AppleOS Update
+# > macOS Recovery
+DOMAIN,oscdn.apple.com,AppleOS Update
+DOMAIN,osrecovery.apple.com,AppleOS Update
+# > iOS and iPadOS updates
+DOMAIN,appldnld.apple.com,AppleOS Update
+DOMAIN,ns.itunes.apple.com,AppleOS Update
+# > iOS, iPadOS, tvOS, and macOS updates
+DOMAIN,gg.apple.com,AppleOS Update
+DOMAIN,gdmf.apple.com,AppleOS Update
+DOMAIN,mesu.apple.com,AppleOS Update
+DOMAIN,updates.cdn-apple.com,AppleOS Update
+DOMAIN,updates-http.cdn-apple.com,AppleOS Update
+DOMAIN,xp.apple.com,AppleOS Update
