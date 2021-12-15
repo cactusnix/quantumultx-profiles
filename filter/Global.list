@@ -15,12 +15,29 @@ DOMAIN-SUFFIX,aex.com,Global
 DOMAIN-SUFFIX,bibox.com,Global
 DOMAIN-SUFFIX,binance.cc,Global
 DOMAIN-SUFFIX,binance.com,Global
+DOMAIN-SUFFIX,binance.us,Global
 DOMAIN-SUFFIX,bitcointalk.org,Global
 DOMAIN-SUFFIX,bitfinex.com,Global
+DOMAIN-SUFFIX,bithumb.com,Global
 DOMAIN-SUFFIX,bitmex.com,Global
+DOMAIN-SUFFIX,bitstamp.net,Global
+DOMAIN-SUFFIX,bittrex.com,Global
+DOMAIN-SUFFIX,bybit.com,Global
+DOMAIN-SUFFIX,coinbase.com,Global
+DOMAIN-SUFFIX,coincheck.com,Global
+DOMAIN-SUFFIX,coingecko.com,Global
+DOMAIN-SUFFIX,coinmarketcap.com,Global
+DOMAIN-SUFFIX,coinone.co.kr,Global
+DOMAIN-SUFFIX,ftx.com,Global
 DOMAIN-SUFFIX,gate.io,Global
+DOMAIN-SUFFIX,gemini.com,Global
 DOMAIN-SUFFIX,huobi.com,Global
+DOMAIN-SUFFIX,korbit.co.kr,Global
+DOMAIN-SUFFIX,kraken.com,Global
+DOMAIN-SUFFIX,kucoin.com,Global
+DOMAIN-SUFFIX,liquid.com,Global
 DOMAIN-SUFFIX,okex.com,Global
+DOMAIN-SUFFIX,poloniex.com,Global
 DOMAIN-SUFFIX,uniswap.org,Global
 DOMAIN-SUFFIX,zb.com,Global
 # > Discord
@@ -58,6 +75,7 @@ DOMAIN-SUFFIX,appspot.com,Global
 DOMAIN-SUFFIX,blogger.com,Global
 DOMAIN-SUFFIX,getoutline.org,Global
 DOMAIN-SUFFIX,gvt0.com,Global
+DOMAIN-SUFFIX,gvt1.com,Global
 DOMAIN-SUFFIX,gvt3.com,Global
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Global
 DOMAIN-SUFFIX,ytimg.com,Global
@@ -115,11 +133,14 @@ IP-CIDR,91.108.12.0/22,Global
 IP-CIDR,91.108.16.0/22,Global
 IP-CIDR,91.108.20.0/22,Global
 IP-CIDR,91.108.56.0/22,Global
-IP-CIDR,95.161.64.0/20,Global
+IP-CIDR,91.105.192.0/23,Global
 IP-CIDR,149.154.160.0/20,Global
+IP-CIDR,185.76.151.0/24,Global
 IP6-CIDR,2001:b28:f23d::/48,Global
 IP6-CIDR,2001:b28:f23f::/48,Global
 IP6-CIDR,2001:67c:4e8::/48,Global
+IP6-CIDR,2001:b28:f23c::/48,Global
+IP6-CIDR,2a0a:f280::/32,Global
 # > Twitter
 DOMAIN-SUFFIX,pscp.tv,Global
 DOMAIN-SUFFIX,periscope.tv,Global
@@ -251,7 +272,7 @@ DOMAIN-SUFFIX,ftimg.net,Global
 DOMAIN-SUFFIX,genius.com,Global
 DOMAIN-SUFFIX,getlantern.org,Global
 DOMAIN-SUFFIX,getsync.com,Global
-DOMAIN-SUFFIX,globalvoices.org,Global
+DOMAIN-SUFFIX,Globalvoices.org,Global
 DOMAIN-SUFFIX,goo.ne.jp,Global
 DOMAIN-SUFFIX,goodreads.com,Global
 DOMAIN-SUFFIX,gov.tw,Global
@@ -415,6 +436,7 @@ DOMAIN-SUFFIX,tineye.com,Global
 DOMAIN-SUFFIX,tiny.cc,Global
 DOMAIN-SUFFIX,tinyurl.com,Global
 DOMAIN-SUFFIX,torproject.org,Global
+DOMAIN-SUFFIX,tradingview.com,Global
 DOMAIN-SUFFIX,tumblr.com,Global
 DOMAIN-SUFFIX,turbobit.net,Global
 DOMAIN-SUFFIX,tutanota.com,Global
@@ -468,6 +490,7 @@ DOMAIN-SUFFIX,z-lib.org,Global
 DOMAIN-SUFFIX,zoom.us,Global
 
 DOMAIN,cc.tvbs.com.tw,Global
+DOMAIN,clubhouse.pubnubapi.com,Global
 DOMAIN,ocsp.int-x3.letsencrypt.org,Global
 DOMAIN,us.weibo.com,Global
 
@@ -535,20 +558,33 @@ DOMAIN-SUFFIX,twitter.jp,Global
 # ---(Apple)---
 DOMAIN-SUFFIX,appsto.re,Global
 DOMAIN,books.itunes.apple.com,Global
-DOMAIN,api-glb-sea.smoot.apple.com,Global
-DOMAIN,beta.music.apple.com,Global
-DOMAIN,tv.apple.com,Global
-# > App Store Web Preview
-DOMAIN,apps.apple.com,Global
-DOMAIN,itunes.apple.com,Global
-# > Look Up
 DOMAIN-SUFFIX,smoot.apple.com,Global
+DOMAIN,beta.music.apple.com,Global
 DOMAIN,lookup-api.apple.com,Global
+# > Web Preview
+DOMAIN,apps.apple.com,Global
+DOMAIN,books.apple.com,Global
+DOMAIN,itunes.apple.com,Global
+DOMAIN,tv.apple.com,Global
+# > Podcasts
+DOMAIN,amp-api.podcasts.apple.com,Global
+DOMAIN,bookkeeper.itunes.apple.com,Global
+# > News
+DOMAIN,gateway.icloud.com,Global
+DOMAIN-SUFFIX,apple.news,Global
+DOMAIN,news-assets.apple.com,Global
+DOMAIN,news-client.apple.com,Global
+DOMAIN,news-client-search.apple.com,Global
+DOMAIN,news-edge.apple.com,Global
+DOMAIN,news-events.apple.com,Global
+DOMAIN,apple.comscoreresearch.com,Global
 # ------
 # Google
 DOMAIN-SUFFIX,go.dev,Global
 DOMAIN-SUFFIX,golang.org,Global
 # > Others
+DOMAIN-SUFFIX,aicoin.com,Global
+DOMAIN-SUFFIX,aimoon.com,Global
 DOMAIN-SUFFIX,bing.com,Global
 DOMAIN-SUFFIX,cccat.io,Global
 DOMAIN-SUFFIX,dubox.com,Global
@@ -565,7 +601,6 @@ DOMAIN,appleid.apple.com,Global
 DOMAIN,developer.apple.com,Global
 DOMAIN,www.icloud.com,Global
 DOMAIN,ocsp.apple.com,Global
-DOMAIN,xp.apple.com,Global
 # > DigiCert
 DOMAIN,cacerts.digicert.com,Global
 DOMAIN,crl3.digicert.com,Global
