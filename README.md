@@ -17,15 +17,54 @@ This repo is only for me, so it isn't suitable for everyone.
 
 ### filter/extra
 
-特定应用分流规则
+- Nefflix.list
+- Telegram.list
+- Twitter.list
+- Youtube.list
+- AppleOSUpdate.list
 
 ### rewrite
 
-重写规则
+#### AdReject
+
+reject ad that only use reject way.
+
+supports:
+
+- douban 
+
+#### AdScript
+
+reject ad that only use script way.
+
+supports:
+
+- weixin article
+
+#### OtherScript 
+
+supports:
+
+- get jd cookies
+- replace AQI with US
+
+#### Search
+
+supports:
+
+- redirect cn google to com goolge
+
+#### Wikiwand
+
+supports:
+
+- redirect wiki to wikiwand
 
 ### scripts
 
-脚本
+#### AdScript
+
+scripts that use to reject ad
 
 ### task
 
