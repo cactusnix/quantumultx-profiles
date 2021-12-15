@@ -1,0 +1,6 @@
+# iCloud
+DOMAIN-SUFFIX,apple-cloudkit.com,iCloud
+DOMAIN-SUFFIX,icloud.com,iCloud
+DOMAIN-SUFFIX,icloud.com.cn,iCloud
+DOMAIN-SUFFIX,icloud-content.com,iCloud
+DOMAIN,www-cdn.icloud.com.akadns.net,iCloud
