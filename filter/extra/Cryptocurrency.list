@@ -1,0 +1,39 @@
+# Forum
+DOMAIN-SUFFIX,bitcointalk.org,Cryptocurrency
+
+# Exchange
+DOMAIN-SUFFIX,aex.com,Cryptocurrency
+DOMAIN-SUFFIX,bibox.com,Cryptocurrency
+DOMAIN-SUFFIX,binance.cc,Cryptocurrency
+DOMAIN-SUFFIX,binance.com,Cryptocurrency
+DOMAIN-SUFFIX,binance.me,Cryptocurrency
+DOMAIN-SUFFIX,binance.us,Cryptocurrency
+DOMAIN-SUFFIX,bitfinex.com,Cryptocurrency
+DOMAIN-SUFFIX,bithumb.com,Cryptocurrency
+DOMAIN-SUFFIX,bitmex.com,Cryptocurrency
+DOMAIN-SUFFIX,bitstamp.net,Cryptocurrency
+DOMAIN-SUFFIX,bittrex.com,Cryptocurrency
+DOMAIN-SUFFIX,bybit.com,Cryptocurrency
+DOMAIN-SUFFIX,coinbase.com,Cryptocurrency
+DOMAIN-SUFFIX,coincheck.com,Cryptocurrency
+DOMAIN-SUFFIX,coinone.co.kr,Cryptocurrency
+DOMAIN-SUFFIX,ftx.com,Cryptocurrency
+DOMAIN-SUFFIX,gate.io,Cryptocurrency
+DOMAIN-SUFFIX,gemini.com,Cryptocurrency
+DOMAIN-SUFFIX,huobi.com,Cryptocurrency
+DOMAIN-SUFFIX,korbit.co.kr,Cryptocurrency
+DOMAIN-SUFFIX,kraken.com,Cryptocurrency
+DOMAIN-SUFFIX,kucoin.com,Cryptocurrency
+DOMAIN-SUFFIX,liquid.com,Cryptocurrency
+DOMAIN-SUFFIX,okex.com,Cryptocurrency
+DOMAIN-SUFFIX,poloniex.com,Cryptocurrency
+DOMAIN-SUFFIX,sushi.com,Cryptocurrency
+DOMAIN-SUFFIX,uniswap.org,Cryptocurrency
+DOMAIN-SUFFIX,zb.com,Cryptocurrency
+
+# Analysis
+DOMAIN-SUFFIX,aicoin.com,Cryptocurrency
+DOMAIN-SUFFIX,aimoon.com,Cryptocurrency
+DOMAIN-SUFFIX,coingecko.com,Cryptocurrency
+DOMAIN-SUFFIX,coinmarketcap.com,Cryptocurrency
+DOMAIN-SUFFIX,tradingview.com,Cryptocurrency
