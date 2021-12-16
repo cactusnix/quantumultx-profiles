@@ -1,58 +1,58 @@
 # Privacy
-DOMAIN-SUFFIX,adjust.com,Reject
-DOMAIN-SUFFIX,cpatrk.net,Reject
-DOMAIN-SUFFIX,kochava.com,Reject
-DOMAIN-SUFFIX,marketo.com,Reject
-DOMAIN-SUFFIX,mobileapptracking.com,Reject
-DOMAIN-SUFFIX,rtbasia.com,Reject
-DOMAIN-SUFFIX,scorecardresearch.com,Reject
-DOMAIN-SUFFIX,sumologic.com,Reject
-DOMAIN-SUFFIX,survicate.com,Reject
-DOMAIN-SUFFIX,tagcommander.com,Reject
-DOMAIN-SUFFIX,tailtarget.com,Reject
-DOMAIN-SUFFIX,talkingdata.net,Reject
-DOMAIN-SUFFIX,tapad.com,Reject
-DOMAIN-SUFFIX,tapfiliate.com,Reject
-DOMAIN-SUFFIX,tapinfluence.com,Reject
-DOMAIN-SUFFIX,tapstream.com,Reject
-DOMAIN-SUFFIX,tealiumiq.com,Reject
-DOMAIN-SUFFIX,tend.io,Reject
-DOMAIN-SUFFIX,tpctrust.com,Reject
-DOMAIN-SUFFIX,trackingio.com,Reject
-DOMAIN-SUFFIX,tremormedia.com,Reject
-DOMAIN-SUFFIX,woopra.com,Reject
-DOMAIN-SUFFIX,wootric.com,Reject
-DOMAIN-SUFFIX,wowanalytics.co.uk,Reject
-DOMAIN-SUFFIX,zoomanalytics.co,Reject
+DOMAIN-SUFFIX,adjust.com,Privacy
+DOMAIN-SUFFIX,cpatrk.net,Privacy
+DOMAIN-SUFFIX,kochava.com,Privacy
+DOMAIN-SUFFIX,marketo.com,Privacy
+DOMAIN-SUFFIX,mobileapptracking.com,Privacy
+DOMAIN-SUFFIX,rtbasia.com,Privacy
+DOMAIN-SUFFIX,scorecardresearch.com,Privacy
+DOMAIN-SUFFIX,sumologic.com,Privacy
+DOMAIN-SUFFIX,survicate.com,Privacy
+DOMAIN-SUFFIX,tagcommander.com,Privacy
+DOMAIN-SUFFIX,tailtarget.com,Privacy
+DOMAIN-SUFFIX,talkingdata.net,Privacy
+DOMAIN-SUFFIX,tapad.com,Privacy
+DOMAIN-SUFFIX,tapfiliate.com,Privacy
+DOMAIN-SUFFIX,tapinfluence.com,Privacy
+DOMAIN-SUFFIX,tapstream.com,Privacy
+DOMAIN-SUFFIX,tealiumiq.com,Privacy
+DOMAIN-SUFFIX,tend.io,Privacy
+DOMAIN-SUFFIX,tpctrust.com,Privacy
+DOMAIN-SUFFIX,trackingio.com,Privacy
+DOMAIN-SUFFIX,tremormedia.com,Privacy
+DOMAIN-SUFFIX,woopra.com,Privacy
+DOMAIN-SUFFIX,wootric.com,Privacy
+DOMAIN-SUFFIX,wowanalytics.co.uk,Privacy
+DOMAIN-SUFFIX,zoomanalytics.co,Privacy
 
-DOMAIN,track.tenjin.com,Reject
-DOMAIN,track.tenjin.io,Reject
-DOMAIN,api.talkingdata.com,Reject
-DOMAIN,track.tiara.daum.net,Reject
-DOMAIN,track.tiara.kakao.com,Reject
-DOMAIN,zgsdk.zhugeio.com,Reject
+DOMAIN,track.tenjin.com,Privacy
+DOMAIN,track.tenjin.io,Privacy
+DOMAIN,api.talkingdata.com,Privacy
+DOMAIN,track.tiara.daum.net,Privacy
+DOMAIN,track.tiara.kakao.com,Privacy
+DOMAIN,zgsdk.zhugeio.com,Privacy
 
 # > 51.LA
-DOMAIN,js.users.51.la,Reject
-DOMAIN,mc.51.la,Reject
-DOMAIN,wc.51.la,Reject
+DOMAIN,js.users.51.la,Privacy
+DOMAIN,mc.51.la,Privacy
+DOMAIN,wc.51.la,Privacy
 # > 58
-DOMAIN,track.58.com,Reject
-DOMAIN,tracklog.58.com,Reject
+DOMAIN,track.58.com,Privacy
+DOMAIN,tracklog.58.com,Privacy
 # > Baidu
-DOMAIN,hm.baidu.com,Reject
-DOMAIN,hmma.baidu.com,Reject
+DOMAIN,hm.baidu.com,Privacy
+DOMAIN,hmma.baidu.com,Privacy
 # > Google
-DOMAIN-SUFFIX,googletagmanager.com,Reject
-DOMAIN-SUFFIX,google-analytics.com,Reject
-DOMAIN,safebrowsing.googleapis.com,Reject
+DOMAIN-SUFFIX,googletagmanager.com,Privacy
+DOMAIN-SUFFIX,google-analytics.com,Privacy
+DOMAIN,safebrowsing.googleapis.com,Privacy
 # > MI
-DOMAIN-SUFFIX,tracking.miui.com,Reject
-DOMAIN,data.mistat.xiaomi.com,Reject
-DOMAIN,tracking.intl.miui.com,Reject
+DOMAIN-SUFFIX,tracking.miui.com,Privacy
+DOMAIN,data.mistat.xiaomi.com,Privacy
+DOMAIN,tracking.intl.miui.com,Privacy
 # > Tencent
-DOMAIN-SUFFIX,trace.qq.com,Reject
-DOMAIN,btrace.qq.com,Reject
-DOMAIN,btrace.video.qq.com,Reject
-DOMAIN,mtrace.qq.com,Reject
-DOMAIN,safebrowsing.urlsec.qq.com,Reject
+DOMAIN-SUFFIX,trace.qq.com,Privacy
+DOMAIN,btrace.qq.com,Privacy
+DOMAIN,btrace.video.qq.com,Privacy
+DOMAIN,mtrace.qq.com,Privacy
+DOMAIN,safebrowsing.urlsec.qq.com,Privacy
