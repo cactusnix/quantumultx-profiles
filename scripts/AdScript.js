@@ -7,10 +7,3 @@ if (url.includes("mp.weixin.qq.com/mp")) {
   delete obj.appid;
   $done({ body: JSON.stringify(obj) });
 }
-// xueqiu
-if (url.includes("api.xueqiu.com/brand/search")) {
-  let obj = JSON.parse($response.body);
-  obj.data.response_info = [];
-  $done({ body: JSON.stringify(obj) });
-}
-
