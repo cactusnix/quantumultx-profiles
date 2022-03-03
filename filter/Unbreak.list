@@ -1,9 +1,5 @@
 # Unbreak
 # > General
-USER-AGENT,archero*,Unbreak
-USER-AGENT,coffeecorp*,Unbreak
-USER-AGENT,Coffee%20Corp*,Unbreak
-USER-AGENT,restaurant-mobile*,Unbreak
 DOMAIN,app.adjust.com,Unbreak
 DOMAIN,bdtj.tagtic.cn,Unbreak
 # > Alibaba
@@ -31,11 +27,12 @@ DOMAIN,alt6-mtalk.google.com,Unbreak
 DOMAIN,alt7-mtalk.google.com,Unbreak
 DOMAIN,alt8-mtalk.google.com,Unbreak
 # >> Paramount+
-DOMAIN,pubads.g.doubleclick.net,Unbreak
+# DOMAIN,pubads.g.doubleclick.net,Unbreak
 # > Tencent
 DOMAIN,fairplay.l.qq.com,Unbreak
 DOMAIN,livew.l.qq.com,Unbreak
 DOMAIN,vd.l.qq.com,Unbreak
+DOMAIN,vi.l.qq.com,Unbreak
 # > Strava
 DOMAIN,analytics.strava.com,Unbreak
 # > Umeng

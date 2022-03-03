@@ -1,13 +1,12 @@
 # Forum
 DOMAIN-SUFFIX,bitcointalk.org,Cryptocurrency
 
+# Wallet
+DOMAIN-SUFFIX,debank.com,Cryptocurrency
+
 # Exchange
 DOMAIN-SUFFIX,aex.com,Cryptocurrency
 DOMAIN-SUFFIX,bibox.com,Cryptocurrency
-DOMAIN-SUFFIX,binance.cc,Cryptocurrency
-DOMAIN-SUFFIX,binance.com,Cryptocurrency
-DOMAIN-SUFFIX,binance.me,Cryptocurrency
-DOMAIN-SUFFIX,binance.us,Cryptocurrency
 DOMAIN-SUFFIX,bitfinex.com,Cryptocurrency
 DOMAIN-SUFFIX,bithumb.com,Cryptocurrency
 DOMAIN-SUFFIX,bitmex.com,Cryptocurrency
@@ -25,15 +24,31 @@ DOMAIN-SUFFIX,korbit.co.kr,Cryptocurrency
 DOMAIN-SUFFIX,kraken.com,Cryptocurrency
 DOMAIN-SUFFIX,kucoin.com,Cryptocurrency
 DOMAIN-SUFFIX,liquid.com,Cryptocurrency
-DOMAIN-SUFFIX,okex.com,Cryptocurrency
+DOMAIN-SUFFIX,pancakeswap.finance,Cryptocurrency
 DOMAIN-SUFFIX,poloniex.com,Cryptocurrency
 DOMAIN-SUFFIX,sushi.com,Cryptocurrency
 DOMAIN-SUFFIX,uniswap.org,Cryptocurrency
 DOMAIN-SUFFIX,zb.com,Cryptocurrency
+# > Binance
+DOMAIN-SUFFIX,binance.cc,Cryptocurrency
+DOMAIN-SUFFIX,binance.cloud,Cryptocurrency
+DOMAIN-SUFFIX,binance.com,Cryptocurrency
+DOMAIN-SUFFIX,binance.im,Cryptocurrency
+DOMAIN-SUFFIX,binance.me,Cryptocurrency
+DOMAIN-SUFFIX,binance.us,Cryptocurrency
+DOMAIN-SUFFIX,bnappzh.co,Cryptocurrency
+DOMAIN-SUFFIX,bnappzh.com,Cryptocurrency
+DOMAIN-SUFFIX,bnbstatic.com,Cryptocurrency
+DOMAIN-SUFFIX,bntrace.com,Cryptocurrency
+# > OKX
+DOMAIN-SUFFIX,okex.com,Cryptocurrency
+DOMAIN-SUFFIX,okx.com,Cryptocurrency
+
+# Explorer 
+DOMAIN-SUFFIX,etherscan.io,Cryptocurrency
 
 # Analysis
 DOMAIN-SUFFIX,aicoin.com,Cryptocurrency
 DOMAIN-SUFFIX,aimoon.com,Cryptocurrency
 DOMAIN-SUFFIX,coingecko.com,Cryptocurrency
 DOMAIN-SUFFIX,coinmarketcap.com,Cryptocurrency
-DOMAIN-SUFFIX,tradingview.com,Cryptocurrency
